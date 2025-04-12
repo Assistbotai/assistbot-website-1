@@ -175,10 +175,10 @@
 
   <section id="pricing" class="container">
     <h2>Our Plan</h2>
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
-      <div style="background: #fff; padding: 30px; width: 300px; border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.05);">
-        <h3>AssistBot - £10.99/month</h3>
-        <ul style="text-align: left; padding-left: 20px;">
+    <div style="display: flex; justify-content: center;">
+      <div style="background: #fff; padding: 40px; width: 350px; border-radius: 10px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); text-align: left;">
+        <h3 style="text-align: center;">Basic - £10.99/month</h3>
+        <ul style="padding-left: 20px;">
           <li>AI-generated responses</li>
           <li>Order tracking</li>
           <li>FAQ handling</li>
@@ -189,12 +189,46 @@
     </div>
   </section>
 
+  <section id="faq" class="container">
+    <h2>Frequently Asked Questions</h2>
+    <p><strong>💬 Will AssistBot remember our last chat?</strong><br>
+    Yes! With session memory, AssistBot remembers your recent conversations to give more relevant answers.</p>
+
+    <p><strong>🌍 Does AssistBot support multiple languages?</strong><br>
+    Absolutely! It can reply in English, Arabic, French, and more.</p>
+
+    <p><strong>📦 Can I track my orders?</strong><br>
+    Yes. Just ask: "Order status 123" and AssistBot will fetch the details.</p>
+
+    <p><strong>🤖 Is it like ChatGPT?</strong><br>
+    Even better—it's tailored for customer service. It integrates memory, escalation, and more.</p>
+  </section>
+
   <section id="about">
     <h2 style="font-size: 2.5em; margin-bottom: 20px;">Why I Built AssistBot</h2>
     <p style="font-size: 1.2em; max-width: 800px; margin: 0 auto;">
       I’ve always loved technology and problem-solving. Building AssistBot was my way of combining my passion for tech with real-world impact. I wanted to use my skills to build something valuable — and create a future where my tech ideas turn into income.
     </p>
   </section>
+
+  <footer>
+    Secure payments with trusted providers<br><br>
+    <img src="visa.png" alt="Visa">
+    <img src="Mastercard_2019_logo.svg.png" alt="MasterCard">
+    <img src="new-stripe-logo-png.png" alt="Stripe">
+  </footer>
+
+  <div id="demo-launcher" onclick="document.getElementById('assistbot-widget').style.display='block';">
+    <img src="logo-removebg-preview.png" alt="AssistBot Icon" style="height: 50px; margin-right: 10px;">
+    <div>
+      <strong>Want to try AssistBot?</strong><br>
+      <span style="font-size: 0.9em; color: #555;">Click here to chat with the demo</span>
+    </div>
+  </div>
+
+  <div id="assistbot-widget">
+    <iframe src="https://your-backend-url/chat-demo"></iframe>
+  </div>
 </body>
 </html>
 
