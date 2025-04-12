@@ -168,7 +168,6 @@
 
   <section class="hero">
     <h1>AssistBot</h1>
-    <p><strong>AssistBot — a SaaS AI chatbot that helps businesses (like Shopify or eCommerce stores) automate customer service using OpenAI.</strong></p>
     <h2>AI Customer Support Powered by AssistBot</h2>
     <p>Deliver instant, multilingual, AI-driven customer support for your online business. Trusted Stripe security. Like ChatGPT, built for Shopify, SaaS, and eCommerce platforms.</p>
     <button class="cta" onclick="document.getElementById('signup').scrollIntoView({ behavior: 'smooth' });">Start Free 7-Day Trial</button>
@@ -178,7 +177,7 @@
     <h2>Our Plans</h2>
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
       <div style="background: #fff; padding: 30px; width: 300px; border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.05);">
-        <h3>Starter - £15/month</h3>
+        <h3>Basic - £10.99/month</h3>
         <ul style="text-align: left; padding-left: 20px;">
           <li>AI-generated responses</li>
           <li>Order tracking</li>
@@ -188,7 +187,7 @@
       <div style="background: #fff; padding: 30px; width: 300px; border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.05);">
         <h3>Pro - £100/month</h3>
         <ul style="text-align: left; padding-left: 20px;">
-          <li>Everything in Starter</li>
+          <li>Everything in Basic</li>
           <li>Team follow-ups</li>
           <li>Custom FAQs</li>
           <li>Text-to-Speech</li>
@@ -199,73 +198,6 @@
       </div>
     </div>
   </section>
-
-  <section id="faq" class="container">
-    <h2>Frequently Asked Questions</h2>
-    <p><strong>💬 Will AssistBot remember our last chat?</strong><br>
-    Yes! With session memory, AssistBot remembers your recent conversations to give more relevant answers.</p>
-
-    <p><strong>🌍 Does AssistBot support multiple languages?</strong><br>
-    Absolutely! It can reply in English, Arabic, French, and more.</p>
-
-    <p><strong>📦 Can I track my orders?</strong><br>
-    Yes. Just ask: "Order status 123" and AssistBot will fetch the details.</p>
-
-    <p><strong>🤖 Is it like ChatGPT?</strong><br>
-    Even better—it's tailored for customer service. It integrates memory, escalation, and more.</p>
-  </section>
-
-  <section id="login" class="container">
-    <h2>Log In</h2>
-    <form>
-      <input type="email" placeholder="Enter your email" required>
-      <input type="password" placeholder="Password" required>
-      <a href="#">Forgot password?</a><br><br>
-      <button class="cta" type="submit">Log In</button>
-    </form>
-  </section>
-
-  <section id="signup" class="container">
-    <h2>Sign Up for Free Trial</h2>
-    <form action="/policy.html">
-      <input type="text" placeholder="Full Name" required>
-      <input type="email" placeholder="Email Address" required>
-      <select required>
-        <option value="">Company Size</option>
-        <option value="1-5">1-5 Employees</option>
-        <option value="6-20">6-20 Employees</option>
-        <option value="21+">21+ Employees</option>
-      </select>
-      <input type="password" placeholder="Create a Password" required>
-      <button class="cta" type="submit">Continue</button>
-    </form>
-  </section>
-
-  <section id="about">
-    <h2 style="font-size: 2.5em; margin-bottom: 20px;">Why I Built AssistBot</h2>
-    <p style="font-size: 1.2em; max-width: 800px; margin: 0 auto;">
-      I created AssistBot because I was tired of chatbots that didn’t let me talk freely. I was broke, struggling, and just needed real answers. Every time I reached out to businesses, their bots made it harder. I thought: what if I could build something better? Something that listens. So I did — for every business that wants to treat customers like real people.
-    </p>
-  </section>
-
-  <footer>
-    Secure payments with trusted providers<br><br>
-    <img src="visa" alt="Visa" style="height: 70px;">
-    <img src="Mastercard_2019_logo.svg.png" alt="MasterCard">
-    <img src="new-stripe-logo-png.png" alt="Stripe">
-  </footer>
-
-  <div id="demo-launcher" onclick="document.getElementById('assistbot-widget').style.display='block';">
-    <img src="logo-removebg-preview.png" alt="AssistBot Icon" style="height: 50px; margin-right: 10px;">
-    <div>
-      <strong>Want to try AssistBot?</strong><br>
-      <span style="font-size: 0.9em; color: #555;">Click here to chat with the demo</span>
-    </div>
-  </div>
-
-  <div id="assistbot-widget">
-    <iframe src="https://your-backend-url/chat-demo"></iframe>
-  </div>
 </body>
 </html>
 
